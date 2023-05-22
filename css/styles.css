@@ -1,0 +1,718 @@
+/* FUENTES DE GOOGLE */
+
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+/* BOOTSTRAP ICONS */
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+*{
+    Margin: 0;
+    padding: 0;
+    font-family: 'Crete Round', serif;
+
+    box-sizing: border-box;
+}
+
+/* ESTILOS GENERALES */
+
+body{
+    background-color: #ffe6d2;
+}
+
+h1{
+    font-family: 'Lilita One', cursive;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 100px;
+
+}
+
+h2{
+    font-family: 'Lilita One', cursive;
+
+    font-weight: bold; 
+    font-size: 100px;
+    text-align: center;
+    padding: 30px;
+    color: black;
+}
+
+h3{
+    text-align: center;
+    font-size: 35px;
+    padding: 30px 30px;
+    font-weight: bold;
+}
+
+/* menu nav */
+
+
+nav div img{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+
+}
+
+.img-texto-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link{
+    color: rgb(252 141 51);
+    font-size: 1.2rem;
+
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: initial;
+    align-items: center;
+}
+
+.dropdown-menu{
+    color: rgb(252 141 51);
+    font-size: 1.2rem;
+    background-color: #000000;
+}
+
+
+.dropdown-item{
+    color: rgb(252 141 51);
+    font-size: 1.2rem;
+    background-color: #000000;
+}
+
+.dropdown-item:hover{
+    background-color: #fa8b30;
+}
+
+/*footer*/
+
+footer{
+    display: flex;
+    color: #fa8b30;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #000000;
+    margin-top: 50px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 10px;
+    align-items: end;
+
+}
+
+.bi{
+    font-size: 1.5rem;
+    transition: 0.4s;
+}
+
+.bi:hover{
+    color: aliceblue;
+}
+
+.logos__footer--icons{
+    margin-bottom:  0;
+    padding-left: 0;
+}
+
+.creado{
+    text-align: center;
+    font-style: oblique;
+    margin-bottom: 0;
+}
+
+/*index*/
+.index-portada{
+    width: 100%;
+}
+
+.principales{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    padding: 40px 20px;
+    transition: 1s;
+}
+
+.card-title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card{
+    width: 25%;
+    display: flex;
+    transition: 0.5s;
+
+}
+
+.card img{
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
+}
+
+.card-body{
+    background-color: #f3f0ec;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.conteiner-btn-card{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 4.5vh;
+    align-items: center;
+}
+
+.btn-card{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.btn-card:hover{
+    color: #fa8b30;
+}
+
+.sobre__nosotros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 20px 70px;
+}
+
+.sobre__nosotros p{
+    font-weight: bold;
+}
+
+.mapa{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 40px 20px;
+}
+
+.mapa__iframe{
+    height: 300px;
+    width: 45%;
+}
+
+.mapa__texto{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+
+.mapa__texto--visitanos{
+    padding: 15px;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.mapa__texto--ubicacion{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+
+.musica{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.musica iframe{
+    width: 90%;
+
+
+}
+
+.index-contacto{
+    display: flex;
+    padding: 0 60px;
+}
+
+
+.index-contacto-wsp{
+    display: flex;
+    width: 40%;
+    font-size: 35px;
+    align-items: center;
+    gap: 15px;
+    justify-content: end;
+    transition: 0.4s;
+}
+
+.index-contacto-wsp:hover{
+    color: #fa8b30;
+}
+
+.index-contacto-wsp i{
+    font-size: 4rem;
+}
+
+.index-contacto-wsp i:hover{
+    color: #fa8b30;
+}
+
+.index-contacto-mail{
+    display: flex;
+    font-size: 35px;
+    align-items: center;
+    gap: 15px;
+    width: 60%;
+    justify-content: center;
+    transition: 0.4s;
+}
+
+
+.index-contacto-mail:hover{
+    color: #fa8b30;
+}
+
+.index-contacto-mail i{
+    font-size: 4rem;
+}
+
+.index-contacto-mail i:hover{
+    color: #fa8b30;
+}
+/*nosotros*/
+
+.historia-img-container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4vh;
+}
+
+.historia-img{
+    width: 80%;
+    height: 550px;
+    object-fit: cover;
+}
+
+.nuestra-historia-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nuestra-historia-texto div{
+    text-align: justify;
+    width: 80%;
+
+}
+ 
+/*servicios*/
+
+.servicios{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+
+.servicios div img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover
+}
+
+.servicios-box{
+    display: flex;
+    gap: 30px;
+    width: 80%;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+
+.servicios-box:hover{
+    box-shadow: 0px 0px 3px 3px #fa8b30;
+    background-color: #ffd3af;
+}
+
+.servicios-box h4{
+    font-size: 30px;
+    font-weight: bold
+}
+
+.servicios-box--texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 15px;
+}
+
+/*GALERIA*/
+
+.fotos__galeria{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(4, 1fr);
+    row-gap: 50px;
+    justify-items: center;
+    padding: 0px 30px;
+}
+
+.fotos__galeria img{
+    width: 80%;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: -2px 2px 5px 3px black;
+    transition: 0.5s;
+}
+
+.fotos__galeria img:hover{
+    box-shadow: -2px 2px 5px 3px rgb(238, 99, 7);
+    transform: scale(1.08);
+}
+
+/*contacto*/
+
+.formulario-contacto{
+    padding: 30px
+}
+
+.input-group {
+    padding: 4px
+
+}
+.form-floating {
+    padding: 5px 4px 15px 4px;
+}
+
+.enviar-formulario{
+    display: flex;
+    justify-content: center;
+    height: 6vh;
+    transition: 0.4s;
+}
+
+
+.btn-enviar-formulario{
+    background-color: #fa8b30;
+    color: rgb(0, 0, 0);
+    width: 99%;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.btn-enviar-formulario:hover{
+    color: white;
+}
+
+
+.form-control{
+    border: 1px solid black;
+}
+
+.input-group-text{
+    border: 1px solid black;
+}
+
+.input-group-text, .bg-black{
+    background-color: black;
+    color: white;
+}
+
+.logos-contacto{
+    display: flex;
+    justify-content: center;
+}
+
+.logos-contacto ul{
+    display: flex;
+    gap: 4rem;
+    padding: 0;
+}
+
+.logos-contacto ul li{
+    list-style-type: none;
+    color: black;
+}
+
+.logos-contacto ul a li i{
+    font-size: 7rem;
+}
+
+/*TARIFAS*/
+
+.tarifas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 30px;
+    padding: 30px 50px;
+}
+
+.tarifas h5{
+    font-size: 1.7rem;
+}
+
+.titulo-tarifas-servicios{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-top: 20px
+}
+
+.tarifas h6{
+    font-size: 1.7rem;
+}
+
+.tarifas h7{
+    font-size: 1.3rem;
+}
+
+.tarifas div{
+    text-align: center;
+    background-color: #f7f4f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tarifas-card{
+    border: 1px solid black;
+}
+
+.tarifas-card p{
+    padding: 10px;
+}
+
+.titulos-card-tarifas-servicios{
+    background-color: #fa8b30;
+    border-bottom: 1px solid;
+}
+
+.titulo-tarifas-alojamiento{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-top: 20px
+}
+
+.tarifas-alojamiento{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    gap: 20px;
+        flex-wrap: wrap;
+}
+
+.tarifas-alojamiento div{
+    display:flex;
+    flex-direction: column;
+    width: 20%;
+    align-items: center;
+    background-color: #f3f0ec;
+    border: 1px solid black;
+}
+
+.tarifas-alojamiento h6{
+    font-size: 1.7rem;
+}
+
+.tarifas-alojamiento h7{
+    font-size: 1.3rem;
+}
+
+
+.tarifas-alojamiento-valores{
+    width: 100%;
+    text-align: center;
+    background-color: #fa8b30;
+    border-bottom: 1px solid;
+    padding-top: 4px;
+}
+
+/*RESERVAS*/
+
+.reservas-titulo{
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.datos-formulario{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.datos-formulario div ul li{
+    font-size: 20px;
+}
+
+.descargar-ficha-ingreso{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.btn-ficha-ingreso{
+    background-color: #fa8b30;
+    color: rgb(0, 0, 0);
+    width: 90%;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+
+.btn-ficha-ingreso:hover{
+    color: white;
+}
+
+/*MEDIA QUERIES*/
+
+/*TABLET*/
+
+@media only screen and (max-width: 768px){
+    
+/*index*/
+
+.principales{
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    flex-direction: row;
+    width: 90%;
+}
+
+.card img{
+    width: 300px;
+    height: 300px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mapa__texto--ubicacion{
+    font-size: 15px;
+}
+
+.mapa__iframe {
+    height: 230px;
+
+}
+
+.index-contacto{
+    flex-direction: column;
+    align-items: center;
+}
+
+.index-contacto-wsp{
+    justify-content: center;
+    width: 100%;
+}
+
+/*historia*/
+
+.historia-img{
+    height: 400px;
+}
+
+/*servicios*/
+
+.servicios-box--texto p{
+    font-size: 14px;
+}
+
+.servicios div img{
+    width: 300px;
+    height: 300px;
+}
+
+/*tarifas*/
+
+.tarifas div {
+    gap: 15px;
+
+}
+
+.tarifas-alojamiento div{
+    width: 45%;
+}
+
+/*reservas*/
+
+.reservas-titulo{
+    font-size: 20px;
+}
+
+/*galeria*/
+
+.fotos__galeria{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+}
+
+
+
+
+/*MOBILE*/
+
+@media only screen and (max-width: 680px){
+
+/*estilos generales*/
+
+h2{
+    font-size: 80px;
+}
+
+/*galeria*/
+.fotos__galeria img {
+    height: 250px;
+}
+
+/*servicios*/
+.servicios div img {
+    width: 200px;
+    height: 200px;
+}
+
+/*tarifas*/
+
+.tarifas{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+/*contacto*/
+.logos-contacto ul {
+    gap: 2rem;
+}
+
+}

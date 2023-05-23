@@ -1,4 +1,4 @@
-# Pagina web curso desarrollo web Coder House
+# PreEntrega2-Parisi
 
 ### Hotel Paraiso Canino
 

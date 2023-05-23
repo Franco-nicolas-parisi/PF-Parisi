@@ -195,7 +195,7 @@ footer ul{
     justify-content: center;
     align-items: center;
     text-align: justify;
-    padding: 20px 70px;
+    padding: 20px 60px;
 }
 
 .sobre__nosotros p{
@@ -233,7 +233,7 @@ footer ul{
 .mapa__texto--ubicacion{
     display: flex;
     align-items: center;
-    font-size: 25px;
+    font-size: 1rem;
 }
 
 
@@ -343,7 +343,7 @@ footer ul{
 .servicios-box{
     display: flex;
     gap: 30px;
-    width: 80%;
+    width: 90%;
     border: 1px solid black;
     transition: 0.5s;
 }
@@ -599,7 +599,11 @@ footer ul{
     flex-direction: row;
     justify-content: space-evenly;
 }
-    
+
+h2{
+    font-size: 4.4rem;
+}
+
 /*index*/
 
 .principales{
@@ -613,8 +617,8 @@ footer ul{
 }
 
 .card img{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
 }
 
 .card-body{
@@ -651,12 +655,12 @@ footer ul{
 /*servicios*/
 
 .servicios-box--texto p{
-    font-size: 14px;
+    font-size: 0.7rem;
 }
 
 .servicios div img{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
 
 /*tarifas*/
@@ -683,10 +687,12 @@ footer ul{
     grid-template-rows: repeat(6, 1fr);
 }
 
+.fotos__galeria img{
+    width: 280px;
+    height: 280px;
 }
 
-
-
+}
 
 /*MOBILE*/
 
@@ -695,12 +701,45 @@ footer ul{
 /*estilos generales*/
 
 h2{
-    font-size: 80px;
+    font-size: 4rem;
 }
 
+h3{
+    font-size: 1.8rem;
+}
+
+/*index*/
+
+.mapa{
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.mapa__iframe {
+    width: 80%;
+
+}
+
+.mapa__texto {
+    margin-bottom: 20px;
+    width: 85%;
+}
+
+.mapa__texto--visitanos {
+    font-size: 1.8rem;
+}
+
+/*nosotros*/
+
+.historia-img {
+    height: 300px;
+}
+
+
 /*galeria*/
-.fotos__galeria img {
-    height: 250px;
+.fotos__galeria img{
+    height: 280px;
+    width: 280px;
 }
 
 /*servicios*/
@@ -719,6 +758,407 @@ h2{
 /*contacto*/
 .logos-contacto ul {
     gap: 2rem;
+}
+
+}
+
+
+@media only screen and (max-width: 654px){
+
+
+/*estilos generales*/
+
+h2{
+    font-size: 3.6rem;
+}
+
+/*index*/
+
+.card img{
+    width: 200px;
+    height: 200px;
+}
+
+.card-body{
+    font-size: 0.8rem;
+}
+
+/*galeria*/
+
+.fotos__galeria img{
+    width: 240px;
+    height: 240px;
+}
+
+}
+
+@media only screen and (max-width: 621px){
+
+/*index*/
+
+.card-body {
+    font-size: 0.6rem;
+}
+
+.index-contacto-mail {
+    font-size: 23px;
+}
+
+.index-contacto-wsp {
+    font-size: 23px;
+}
+
+}
+
+
+
+@media only screen and (max-width: 576px){
+
+/*estilos generales*/
+
+.nav-link {
+    font-size: 1rem;
+}
+
+.dropdown-item {
+    font-size: 1rem;
+}
+h2{
+    font-size: 3rem;
+}
+
+/*index*/
+
+.card-title {
+    font-size: 15px;
+}   
+
+/*nosotros*/
+
+.historia-img {
+    height: 250px;
+}
+
+/*servicios*/
+
+.servicios-box h4 {
+    font-size: 20px;
+}
+
+.servicios-box--texto{
+    padding-left: 0;
+    text-align: center;
+}
+
+.servicios-box--texto p {
+    font-size: 0.6rem;
+}
+
+.servicios div img{
+    width: 180px;
+    height: 180px;
+}
+
+
+
+/*galeria*/
+
+.fotos__galeria{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+
+.fotos__galeria img{
+    width: 270px;
+    height: 270px;
+}
+
+/*contacto*/
+
+.logos-contacto ul a li i {
+    font-size: 4rem;
+}
+
+.datos-formulario div ul li {
+    font-size: 15px;
+}
+
+/*reservas*/
+
+.reservas-titulo {
+    font-size: 15px;
+}
+
+.btn-ficha-ingreso {
+    font-size: 15px;
+}
+
+
+/*tarifas*/
+
+.tarifas-alojamiento div{
+    width: 80%;
+}
+
+}
+
+
+@media only screen and (max-width: 484px){
+
+/*estilos generales*/
+
+nav div img {
+    width: 70px;
+    height: 70px;
+}
+
+.navbar-brand{
+    font-size: 0.9rem;
+}
+
+.navbar-toggler{
+    font-size: 0.9rem;
+}
+
+.nav-link {
+    font-size: 0.7rem;
+
+}
+
+.dropdown-item {
+    font-size: 0.7rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+
+
+/*index*/
+
+.card{
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+.card img {
+    width: 300px;
+}
+
+.card-body{
+    width: 300px;
+}
+
+.sobre__nosotros--texto{
+    font-size: 0.8rem;
+}
+
+.index-contacto-wsp {
+    font-size: 17px;
+}
+
+.index-contacto-mail{
+    font-size: 20px;
+}
+
+.index-contacto-wsp i {
+    font-size: 3rem;
+}
+
+.index-contacto-mail i {
+    font-size: 3rem;
+}
+
+/*nosotros*/
+
+.historia-img {
+    height: 200px;
+}
+
+.nuestra-historia-texto{
+    font-size: 0.9rem;
+}
+
+/*servicios*/
+
+.servicios-box{
+    gap: 10px;
+}
+
+.servicios-box h4 {
+    font-size: 15px;
+}
+
+.servicios div img {
+    width: 140px;
+    height: 140px;
+}
+
+.servicios-box--texto p {
+    font-size: 0.5rem;
+}
+
+/*tarifas*/
+
+.tarifas h5 {
+    font-size: 1.2rem;
+}
+
+.tarifas h6 {
+    font-size: 1.1rem;
+}
+
+.tarifas h7 {
+    font-size: 1.1rem;
+}
+
+.tarifas-card p {
+    font-size: 12px;
+}
+
+.tarifas div {
+    gap: 3px;
+}
+
+.titulo-tarifas-servicios {
+    font-size: 1.8rem;
+}
+
+.titulo-tarifas-alojamiento {
+    font-size: 1.8rem;
+}
+
+.tarifas-alojamiento h6 {
+    font-size: 1.2rem;
+}
+
+.tarifas-alojamiento h7 {
+    font-size: 1.1rem;
+}
+
+}
+
+@media only screen and (max-width: 409px){
+
+/*estilos generales*/
+
+h2 {
+    font-size: 2.2rem;
+}
+
+/*index*/
+
+
+.card{
+    width: 250px;
+}
+
+.card-body{
+    width: 250px;
+}
+
+.card img {
+    width: 250px;
+
+}
+
+/*nosotros*/
+
+.historia-img {
+    height: 150px;
+
+}
+
+/*servicios*/
+
+.servicios-box h4 {
+    font-size: 11px;
+}
+
+/*tarifas*/
+
+.titulo-tarifas-servicios{
+    font-size: 2rem;
+}
+
+.titulo-tarifas-alojamiento{
+    font-size: 2rem;
+}
+
+
+/*reservas*/
+
+.reservas-titulo {
+    font-size: 11px;
+}
+
+.datos-formulario div ul li {
+    font-size: 11px;
+}
+
+.btn-ficha-ingreso {
+    font-size: 12px;
+}
+
+/*galeria*/
+
+.fotos__galeria img {
+    width: 219px;
+    height: 220px;
+}
+
+/*contacto*/
+
+.logos-contacto ul a li i {
+    font-size: 2.5rem;
+}
+
+}
+
+@media only screen and (max-width: 373px){
+
+/*estilos generales*/
+
+h2{
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+h3 {
+    font-size: 1.4rem;
+    padding: 15px 15px;
+}
+
+/*index*/
+
+.index-contacto-wsp {
+    font-size: 15px;
+}
+.index-contacto-wsp p{
+    padding-top: 10px;
+}
+
+.index-contacto-mail {
+    font-size: 15px;
+}
+
+.index-contacto-mail p{
+    padding-top: 10px;
+}
+
+.mapa__texto--visitanos {
+    font-size: 1.5rem;
+}
+
+.musica iframe {
+    width: 80%;
+}
+
+/*servicios*/
+
+.servicios-box--texto p {
+     font-size: 0.43rem;
 }
 
 }

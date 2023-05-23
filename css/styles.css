@@ -956,19 +956,19 @@ h2 {
 }
 
 .index-contacto-wsp {
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .index-contacto-mail{
-    font-size: 20px;
+    font-size: 14px;
 }
 
 .index-contacto-wsp i {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .index-contacto-mail i {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 /*nosotros*/
@@ -1121,6 +1121,10 @@ h2 {
 
 /*estilos generales*/
 
+.navbar-brand {
+    font-size: 0.7rem;
+}
+
 h2{
     font-size: 1.5rem;
     padding: 20px;
@@ -1129,28 +1133,6 @@ h2{
 h3 {
     font-size: 1.4rem;
     padding: 15px 15px;
-}
-
-/*index*/
-
-.index-contacto-wsp {
-    font-size: 15px;
-}
-.index-contacto-wsp p{
-    padding-top: 10px;
-}
-
-.index-contacto-wsp i{
-    font-size: 2rem;
-}
-
-.index-contacto-mail i{
-    font-size: 2rem;
-}
-
-.index-contacto-mail p{
-    padding-top: 10px;
-    font-size: 12px;
 }
 
 .mapa__texto--visitanos {

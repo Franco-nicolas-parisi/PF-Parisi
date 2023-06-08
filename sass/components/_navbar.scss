@@ -1,0 +1,41 @@
+
+/* menu nav */
+
+.img-texto-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        width: 90px;
+        height: 90px;
+        object-fit: cover;
+        }
+}
+
+.navbar-collapse {
+    flex-grow: initial;
+    align-items: center;
+}
+
+.nav-link{
+    color: $secondary-color;
+    font-size: 1.2rem;
+
+}
+
+.dropdown-menu{
+    color: $secondary-color;
+    font-size: 1.2rem;
+    background-color: #000000;
+    li a{
+        color: $secondary-color;
+    font-size: 1.2rem;
+    background-color: #000000;
+
+    &:hover{
+        background-color: $secondary-color;
+    }
+
+    }
+}

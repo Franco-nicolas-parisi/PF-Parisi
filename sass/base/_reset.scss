@@ -1,0 +1,50 @@
+/* FUENTES DE GOOGLE */
+
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+
+/* BOOTSTRAP ICONS */
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+*{
+    Margin: 0;
+    padding: 0;
+    font-family: 'Noto Serif', serif;
+    box-sizing: border-box;
+}
+
+/* ESTILOS GENERALES */
+
+body{
+    background-color: $main-color;
+}
+
+h1{
+    font-family: 'Lilita One', cursive;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 100px;
+
+}
+
+h2{
+    font-family: 'Lilita One', cursive;
+
+    font-weight: bold; 
+    font-size: 100px;
+    text-align: center;
+    padding: 30px;
+    color: black;
+}
+
+h3{
+    text-align: center;
+    font-size: 35px;
+    padding: 30px 30px;
+    font-weight: bold;
+}

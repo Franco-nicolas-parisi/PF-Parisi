@@ -1,0 +1,22 @@
+/*Imports Base*/
+
+@import "base/vars";
+@import "base/utilities";
+@import "base/reset";
+
+
+/*Imports Components*/
+
+@import "components/navbar";
+@import "components/footer";
+
+/*Imports Layout*/
+
+@import "layout/index";
+@import "layout/nosotros";
+@import "layout/servicios";
+@import "layout/tarifas";
+@import "layout/reservas";
+@import "layout/galeria";
+@import "layout/contacto";
+@import "layout/mediaqueries";

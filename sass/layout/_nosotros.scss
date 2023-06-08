@@ -1,0 +1,22 @@
+/*nosotros*/
+
+.nosotros__container{
+    @include flex(column,center,center);
+    padding-bottom: 4vh;
+
+    img{
+        width: 80%;
+        height: 550px;
+        object-fit: cover;
+    }
+}
+
+
+.nosotros__historia{
+    @include flex(column,center,center);
+    div{
+        text-align: justify;
+        width: 80%;
+    
+    }
+}

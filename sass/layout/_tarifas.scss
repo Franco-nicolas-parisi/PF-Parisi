@@ -1,0 +1,77 @@
+
+
+/*TARIFAS*/
+
+
+h4{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-top: 20px
+}
+
+.tarifas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 30px;
+    padding: 30px 50px;
+
+    &__card{
+        text-align: center;
+        background-color: #f7f4f1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: 1px solid black;
+
+        p{
+            padding: 10px;
+        }
+
+        div
+
+        h6{
+            font-size: 1.3rem;
+        }
+        
+        span h5{
+            background-color: $secondary-color;
+            border-bottom: 1px solid;
+            font-size: 1.5rem;
+        }
+    }
+}
+
+.alojamiento{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    div{
+        display:flex;
+        flex-direction: column;
+        width: 20%;
+        align-items: center;
+        background-color: #f3f0ec;
+        border: 1px solid black;
+
+        span{
+            text-align: center;
+            background-color: $secondary-color;
+            border-bottom: 1px solid;
+            padding-top: 4px;
+            width: 100%;
+            h5{
+                font-size: 1.5rem;
+            }
+        }
+
+        h6{
+            font-size: 1.2rem;
+            text-align: center;
+        }
+    }    
+}

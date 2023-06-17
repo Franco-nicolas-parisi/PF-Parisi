@@ -3,7 +3,13 @@
 /*TABLET*/
 
 @media only screen and (max-width: 768px) {
+  
   /*estilos generales*/
+  .navbar {
+    .container-fluid {
+      justify-content: center;
+    }
+  }
 
   .navbar-nav {
     flex-direction: row;
@@ -180,6 +186,13 @@
     padding: 25px;
   }
 
+  /*galeria*/
+
+  .fotos__galeria {
+    padding: 0px 35px;
+    gap: 35px;
+  }
+
   /*contacto*/
 
   .logos__contacto ul {
@@ -233,16 +246,15 @@
   .logos__contacto ul a li i {
     font-size: 4rem;
   }
+
+  .btn-enviar-formulario{
+    height: 35px;
+  }
+
 }
 
 @media only screen and (max-width: 576px) {
   /*estilos generales*/
-
-  .navbar {
-    .container-fluid {
-      justify-content: center;
-    }
-  }
 
   .nav-link {
     font-size: 1rem;
@@ -289,8 +301,6 @@
     }
     &--texto {
       padding-left: 0;
-      text-align: center;
-
       h4 {
         font-size: 20px;
       }

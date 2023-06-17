@@ -315,12 +315,13 @@ footer p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   padding: 0px 15px;
   width: 100%;
 }
 .servicios__box--texto h4 {
   font-weight: bold;
+  font-size: 2rem;
 }
 
 /*TARIFAS*/
@@ -513,6 +514,9 @@ form .enviar-formulario button:hover {
 /*TABLET*/
 @media only screen and (max-width: 768px) {
   /*estilos generales*/
+  .navbar .container-fluid {
+    justify-content: center;
+  }
   .navbar-nav {
     flex-direction: row;
     justify-content: space-evenly;
@@ -638,6 +642,11 @@ form .enviar-formulario button:hover {
   .reservas__titulo {
     padding: 25px;
   }
+  /*galeria*/
+  .fotos__galeria {
+    padding: 0px 35px;
+    gap: 35px;
+  }
   /*contacto*/
   .logos__contacto ul {
     gap: 2rem;
@@ -674,12 +683,12 @@ form .enviar-formulario button:hover {
   .logos__contacto ul a li i {
     font-size: 4rem;
   }
+  .btn-enviar-formulario {
+    height: 35px;
+  }
 }
 @media only screen and (max-width: 576px) {
   /*estilos generales*/
-  .navbar .container-fluid {
-    justify-content: center;
-  }
   .nav-link {
     font-size: 1rem;
   }
@@ -712,7 +721,6 @@ form .enviar-formulario button:hover {
   }
   .servicios__box--texto {
     padding-left: 0;
-    text-align: center;
   }
   .servicios__box--texto h4 {
     font-size: 20px;

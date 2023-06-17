@@ -54,7 +54,7 @@
     @include flex(column,center,center);
     flex-wrap: wrap;
     text-align: justify;
-    padding: 20px 60px;
+    padding: 20px 70px;
 
     p{
         font-weight: bold;
@@ -65,7 +65,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 40px 20px;
+    padding: 40px;
 
     &__iframe{
         height: 300px;
@@ -96,6 +96,7 @@
 .musica{
     @include flex(column,center,center);
     flex-wrap: wrap;
+    padding: 15px;
 
     iframe{
         width: 90%;

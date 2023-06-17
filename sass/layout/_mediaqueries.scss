@@ -251,6 +251,11 @@
     height: 35px;
   }
 
+
+  form {
+    padding: 0px 30px 20px 30px;
+  }
+
 }
 
 @media only screen and (max-width: 576px) {
@@ -260,8 +265,10 @@
     font-size: 1rem;
   }
 
-  .dropdown-menu li a {
+  .navbar-collapse ul li{
+    .dropdown-menu li a {
     font-size: 1rem;
+    } 
   }
 
   h2 {
@@ -345,7 +352,7 @@
   /*tarifas*/
 
   .alojamiento div {
-    width: 80%;
+    width: 85%;
   }
 }
 
@@ -374,8 +381,10 @@
     font-size: 0.7rem;
   }
 
-  .dropdown-menu li a {
+  .navbar-collapse ul li{
+    .dropdown-menu li a {
     font-size: 0.7rem;
+    } 
   }
 
   h2 {
@@ -444,6 +453,7 @@
   .reservas__titulo {
     padding-top: 0px;
   }
+
 }
 
 @media only screen and (max-width: 453px) {

@@ -18,6 +18,10 @@ body {
   background-color: #ffe6d2;
 }
 
+main {
+  min-height: 100vh;
+}
+
 h1 {
   font-family: "Lilita One", cursive;
   font-weight: bold;
@@ -59,24 +63,24 @@ h3 {
   flex-grow: initial;
   align-items: center;
 }
+.navbar-collapse ul li .dropdown-menu {
+  color: #fa8b30;
+  font-size: 1.2rem;
+  background-color: #000000;
+  position: absolute;
+}
+.navbar-collapse ul li .dropdown-menu li a {
+  color: #fa8b30;
+  font-size: 1.2rem;
+  background-color: #000000;
+}
+.navbar-collapse ul li .dropdown-menu li a:hover {
+  background-color: #fa8b30;
+}
 
 .nav-link {
   color: #fa8b30;
   font-size: 1.2rem;
-}
-
-.dropdown-menu {
-  color: #fa8b30;
-  font-size: 1.2rem;
-  background-color: #000000;
-}
-.dropdown-menu li a {
-  color: #fa8b30;
-  font-size: 1.2rem;
-  background-color: #000000;
-}
-.dropdown-menu li a:hover {
-  background-color: #fa8b30;
 }
 
 /*footer*/
@@ -170,7 +174,7 @@ footer p {
   align-items: center;
   flex-wrap: wrap;
   text-align: justify;
-  padding: 20px 60px;
+  padding: 20px 70px;
 }
 .sobre__nosotros p {
   font-weight: bold;
@@ -180,7 +184,7 @@ footer p {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin: 40px 20px;
+  padding: 40px;
 }
 .mapa__iframe {
   height: 300px;
@@ -213,6 +217,7 @@ footer p {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  padding: 15px;
 }
 .musica iframe {
   width: 90%;
@@ -337,7 +342,7 @@ footer p {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(1, 1fr);
   gap: 30px;
-  padding: 30px 50px;
+  padding: 30px 45px;
 }
 .tarifas__card {
   text-align: center;
@@ -362,7 +367,7 @@ footer p {
 .alojamiento {
   display: flex;
   justify-content: space-evenly;
-  padding-top: 40px;
+  padding: 30px 15px;
   gap: 20px;
   flex-wrap: wrap;
 }
@@ -686,13 +691,16 @@ form .enviar-formulario button:hover {
   .btn-enviar-formulario {
     height: 35px;
   }
+  form {
+    padding: 0px 30px 20px 30px;
+  }
 }
 @media only screen and (max-width: 576px) {
   /*estilos generales*/
   .nav-link {
     font-size: 1rem;
   }
-  .dropdown-menu li a {
+  .navbar-collapse ul li .dropdown-menu li a {
     font-size: 1rem;
   }
   h2 {
@@ -753,7 +761,7 @@ form .enviar-formulario button:hover {
   }
   /*tarifas*/
   .alojamiento div {
-    width: 80%;
+    width: 85%;
   }
 }
 @media only screen and (max-width: 484px) {
@@ -772,7 +780,7 @@ form .enviar-formulario button:hover {
   .nav-link {
     font-size: 0.7rem;
   }
-  .dropdown-menu li a {
+  .navbar-collapse ul li .dropdown-menu li a {
     font-size: 0.7rem;
   }
   h2 {

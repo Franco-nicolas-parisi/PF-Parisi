@@ -16,26 +16,27 @@
 .navbar-collapse {
     flex-grow: initial;
     align-items: center;
+    ul li{
+        .dropdown-menu{
+            color: $secondary-color;
+            font-size: 1.2rem;
+            background-color: #000000;
+            position: absolute;
+            li a{
+                color: $secondary-color;
+            font-size: 1.2rem;
+            background-color: #000000;
+            &:hover{
+                background-color: $secondary-color;
+            }
+        
+            }
+        }
+    }
 }
 
 .nav-link{
     color: $secondary-color;
     font-size: 1.2rem;
 
-}
-
-.dropdown-menu{
-    color: $secondary-color;
-    font-size: 1.2rem;
-    background-color: #000000;
-    li a{
-        color: $secondary-color;
-    font-size: 1.2rem;
-    background-color: #000000;
-
-    &:hover{
-        background-color: $secondary-color;
-    }
-
-    }
 }

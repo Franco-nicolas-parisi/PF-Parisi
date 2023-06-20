@@ -1,4 +1,4 @@
-# PreEntrega2-Parisi
+# Proyecto Final-Parisi
 
 ### Hotel Paraiso Canino
 

@@ -55,6 +55,54 @@
     }
 }
 
+.segunda{
+    animation-name: aparicion;
+    animation-iteration-count: 1;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+}
+
+.primera{
+    animation-name: deslizar-izquierda;
+    animation-iteration-count: 1;
+    animation-duration: 2.1s;
+    animation-timing-function: linear;
+    transform: translateX(0);
+}
+
+.tercera{
+    animation-name: deslizar-derecha;
+    animation-iteration-count: 1;
+    animation-duration: 2.1s;
+    animation-timing-function: linear;
+    transform: translateX(0);
+}
+
+@keyframes aparicion {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+@keyframes deslizar-derecha {
+    0%{
+        opacity: 0;
+        transform: translateX(150%)
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes deslizar-izquierda {
+    0%{
+        opacity: 0;
+        transform: translateX(-150%)
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 .sobre__nosotros{
     @include flex(column,center,center);
     flex-wrap: wrap;
@@ -71,11 +119,11 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 40px;
-
+    
     &__iframe{
         height: 300px;
         width: 45%;
-    }
+        }
 
     &__texto{
         @include flex(column,center,center);

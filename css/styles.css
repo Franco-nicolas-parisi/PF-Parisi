@@ -169,6 +169,55 @@ footer p {
   color: #fa8b30;
 }
 
+.segunda {
+  animation-name: aparicion;
+  animation-iteration-count: 1;
+  animation-duration: 2.5s;
+  animation-timing-function: linear;
+}
+
+.primera {
+  animation-name: deslizar-izquierda;
+  animation-iteration-count: 1;
+  animation-duration: 2.1s;
+  animation-timing-function: linear;
+  transform: translateX(0);
+}
+
+.tercera {
+  animation-name: deslizar-derecha;
+  animation-iteration-count: 1;
+  animation-duration: 2.1s;
+  animation-timing-function: linear;
+  transform: translateX(0);
+}
+
+@keyframes aparicion {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes deslizar-derecha {
+  0% {
+    opacity: 0;
+    transform: translateX(150%);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes deslizar-izquierda {
+  0% {
+    opacity: 0;
+    transform: translateX(-150%);
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .sobre__nosotros {
   display: flex;
   flex-direction: column;
@@ -302,6 +351,34 @@ footer p {
   align-items: center;
   gap: 30px;
 }
+.servicios .uno {
+  animation-name: aparecer-derecha;
+  animation-iteration-count: 1;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+  transform: translateX(0);
+}
+.servicios .tres {
+  animation-name: aparecer-derecha;
+  animation-iteration-count: 1;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+  transform: translateX(0);
+}
+.servicios .dos {
+  animation-name: aparecer-izquierda;
+  animation-iteration-count: 1;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+  transform: translateX(0);
+}
+.servicios .cuatro {
+  animation-name: aparecer-izquierda;
+  animation-iteration-count: 1;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+  transform: translateX(0);
+}
 .servicios__box {
   display: flex;
   gap: 30px;
@@ -331,6 +408,24 @@ footer p {
   font-size: 2rem;
 }
 
+@keyframes aparecer-derecha {
+  0% {
+    opacity: 0;
+    transform: translateX(150%);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes aparecer-izquierda {
+  0% {
+    opacity: 0;
+    transform: translateX(-150%);
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /*TARIFAS*/
 .tarifas__titulos {
   text-align: center;

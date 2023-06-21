@@ -3,6 +3,34 @@
 .servicios{
     @include flex(column,center,center);
     gap: 30px;
+    .uno{
+        animation-name: aparecer-derecha;
+        animation-iteration-count: 1;
+        animation-duration: 1.5s;
+        animation-timing-function: linear;
+        transform: translateX(0);
+    }
+    .tres{
+        animation-name: aparecer-derecha;
+        animation-iteration-count: 1;
+        animation-duration: 1.5s;
+        animation-timing-function: linear;
+        transform: translateX(0);
+    }
+    .dos{
+        animation-name: aparecer-izquierda;
+        animation-iteration-count: 1;
+        animation-duration: 1.5s;
+        animation-timing-function: linear;
+        transform: translateX(0);
+    }
+    .cuatro{
+        animation-name: aparecer-izquierda;
+        animation-iteration-count: 1;
+        animation-duration: 1.5s;
+        animation-timing-function: linear;
+        transform: translateX(0);
+    }
     &__box{
         display: flex;
         gap: 30px;
@@ -31,5 +59,25 @@
             font-size: 2rem;
             }
         }
+    }
+}
+
+@keyframes aparecer-derecha {
+    0%{
+        opacity: 0;
+        transform: translateX(150%)
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes aparecer-izquierda {
+    0%{
+        opacity: 0;
+        transform: translateX(-150%)
+    }
+    100%{
+        opacity: 1;
     }
 }
